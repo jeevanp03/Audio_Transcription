@@ -1,7 +1,7 @@
 import os
 
 def read_audio_file(file_path):
-   open(file_path, "rb")
+   return open(file_path, "rb")
 
 def transcribe_audio_whisper(client, audio_file, prompt=None, model = "whisper-1", response_format="verbose_json", timestamp_granularities=["word"]):
   if response_format == "text":
