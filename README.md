@@ -4,15 +4,17 @@ This repository contains utility functions to assist with transcribing audio rec
 
 ## Table of Contents
 
-- [Prerequisites](#prerequisites)
-- [Virtual Environment Setup](#virtual-environment-setup)
-  - [Creating a Virtual Environment](#creating-a-virtual-environment)
-  - [Activating the Virtual Environment](#activating-the-virtual-environment)
-  - [Installing Dependencies](#installing-dependencies)
-  - [Deactivating the Virtual Environment](#deactivating-the-virtual-environment)
-- [Managing Dependencies with `requirements.txt`](#managing-dependencies-with-requirementstxt)
-  - [Creating a `requirements.txt` File](#creating-a-requirementstxt-file)
-  - [Installing from `requirements.txt`](#installing-from-requirementstxt)
+- [Audio Transcription](#audio-transcription)
+  - [Table of Contents](#table-of-contents)
+  - [Prerequisites](#prerequisites)
+  - [Virtual Environment Setup](#virtual-environment-setup)
+    - [Creating a Virtual Environment](#creating-a-virtual-environment)
+    - [Activating the Virtual Environment](#activating-the-virtual-environment)
+    - [Installing Dependencies](#installing-dependencies)
+    - [Deactivating the Virtual Environment](#deactivating-the-virtual-environment)
+  - [Managing Dependencies with `requirements.txt`](#managing-dependencies-with-requirementstxt)
+    - [Creating a `requirements.txt` File](#creating-a-requirementstxt-file)
+    - [Installing from `requirements.txt`](#installing-from-requirementstxt)
 
 ## Prerequisites
 
@@ -34,27 +36,27 @@ Using a virtual environment is recommended to manage project-specific dependenci
 2. **Create the virtual environment**:
 
    ```bash
-   python3 -m venv venv
+   python3 -m venv .venv
    ```
 
-   - This command creates a folder named `venv` in your project directory.
-   - The `venv` folder contains a standalone Python installation along with its own `pip`.
+   - This command creates a folder named `.venv` in your project directory.
+   - The `.venv` folder contains a standalone Python installation along with its own `pip`.
 
 ### Activating the Virtual Environment
 
 - **On Windows**:
 
   ```bash
-  venv\Scripts\activate
+  .venv\Scripts\activate
   ```
 
 - **On macOS/Linux**:
 
   ```bash
-  source venv/bin/activate
+  source .venv/bin/activate
   ```
 
-  - After activation, your command prompt will be prefixed with `(venv)` to indicate that the virtual environment is active.
+  - After activation, your command prompt will be prefixed with `(.venv)` to indicate that the virtual environment is active.
 
 ### Installing Dependencies
 
