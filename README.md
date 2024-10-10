@@ -1,6 +1,6 @@
 # Audio Transcription
 
-This repository contains utility functions to assist with transcribing audio recordings. The audio recordings are interviews conducted as part of the MSE 343 Human-Computer Interaction (HCI) project.
+This repository contains utility functions to assist with transcribing audio recordings. The audio recordings are interviews conducted as part of the MSE 343 Human-Computer Interaction (HCI) project. I used a combination of OpenAI's LLMs and Whisper Models as well as HuggingFace's open-source alternatives to allow for variation in models depending on the need. 
 
 ## Table of Contents
 
